@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Page</title>
+
+    <style>
+      h1 {
+        text-align: center;
+      }
+      /* Gaya CSS untuk menyusun div secara horizontal */
+      .container {
+        display: flex;
+      }
+
+      .section {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center; /* Agar gambar berada di tengah */
+      }
+
+      .section img {
+        max-width: 100%; /* Maksimalkan lebar gambar sesuai dengan ukuran div */
+        max-height: 100%; /* Maksimalkan tinggi gambar sesuai dengan ukuran div */
+        margin-bottom: 10px; /* Berikan sedikit margin bawah pada gambar */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SURVEY</h1>
+    <!-- Container untuk elemen horizontal -->
+    <div class="container">
+      <!-- Div 1 -->
+      <div class="section" id="section1">
+        <h2>1</h2>
+        <img
+          src="{{ url_for('static', filename='MetroDF_Linea_1.jpg') }}"
+          alt="Section 1 Image"
+        />
+        <h2>Anis - Muhaimin</h2>
+        <h1 id="count1">{{ c1 }}%</h1>
+      </div>
+
+      <!-- Div 2 -->
+      <div class="section" id="section2">
+        <h2>2</h2>
+        <img
+          src="{{ url_for('static', filename='MetroDF_Linea_2.jpg') }}"
+          alt="Section 2 Image"
+        />
+        <h2>Prabowo - Gibran<h2>
+        <h1 id="count2">{{ c2 }}%</h1>
+      </div>
+
+      <!-- Div 3 -->
+      <div class="section" id="section3">
+        <h2>3</h2>
+        <img
+          src="{{ url_for('static', filename='MetroDF_Linea_3.jpg') }}"
+          alt="Section 3 Image"
+        />
+        <h2>Ganjar - Mahfud<h2>
+        <h1 id="count3">{{ c3 }}%</h1>
+      </div>
+    </div>
+
+    <!-- Skrip Socket.IO -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+    <script>
+      var socket = io.connect(
+        "http://" + document.domain + ":" + location.port + "/survey"
+      );
+
+      // Menerima pembaruan nilai dari server dan memperbarui halaman
+      socket.on("update", function (data) {
+        document.getElementById("count1").innerText = data.c1 + "%";
+        document.getElementById("count2").innerText = data.c2 + "%";
+        document.getElementById("count3").innerText = data.c3 + "%";
+      });
+    </script>
+  </body>
+</html>
