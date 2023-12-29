@@ -9,64 +9,132 @@
       h1 {
         text-align: center;
       }
+
       /* Gaya CSS untuk menyusun div secara horizontal */
       .container {
         display: flex;
+      }
+      .progress {
+        display: 1;
       }
 
       .section {
         flex: 1;
         margin: 10px;
-        padding: 20px;
-        border: 1px solid #ccc;
+        padding: 0px;
         text-align: center; /* Agar gambar berada di tengah */
       }
 
+      .bar {
+        flex: 1;
+        margin: 10px;
+        padding: 0px;
+        text-align: center; /* Agar gambar berada di tengah */
+      }
       .section img {
         max-width: 100%; /* Maksimalkan lebar gambar sesuai dengan ukuran div */
         max-height: 100%; /* Maksimalkan tinggi gambar sesuai dengan ukuran div */
-        margin-bottom: 10px; /* Berikan sedikit margin bawah pada gambar */
+        margin-top: 0px; /* Berikan sedikit margin bawah pada gambar */
+        margin-bottom: 0px; /* Berikan sedikit margin bawah pada gambar */
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 20px;
+        background-color: #eee;
+        margin-top: 10px;
+        overflow: hidden;
+        border-radius: 5px;
+      }
+
+      .progress-bar div {
+        height: 100%;
+        transition: width 0.3s ease-in-out; /* Animasi perubahan lebar progress bar */
+      }
+
+      .section h2,
+      .section h1 {
+        /* Atur gaya font untuk nomor dan persentase */
+        font-family: "Pacifico", cursive;
+        font-size: 100px;
+        margin: 0;
+        padding: 0px;
+        color: #db1a21;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Animasi perubahan warna dan skala */
       }
     </style>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+    />
   </head>
   <body>
-    <h1>SURVEY</h1>
     <!-- Container untuk elemen horizontal -->
     <div class="container">
       <!-- Div 1 -->
       <div class="section" id="section1">
-        <h2>1</h2>
+        <!-- <h1>1</h1> -->
         <img
-          src="{{ url_for('static', filename='MetroDF_Linea_1.jpg') }}"
+          src="{{ url_for('static', filename='1.png') }}"
           alt="Section 1 Image"
         />
-        <h2>Anis - Muhaimin</h2>
+        <!-- <h2>Anis - Muhaimin</h2> -->
         <h1 id="count1">{{ c1 }}%</h1>
+        <div class="progress-bar">
+          <div style="width: {{ c1 }}%; background-color: #4CAF50;"></div>
+        </div>
       </div>
 
       <!-- Div 2 -->
       <div class="section" id="section2">
-        <h2>2</h2>
+        <!-- <h1>2</h1> -->
         <img
-          src="{{ url_for('static', filename='MetroDF_Linea_2.jpg') }}"
+          src="{{ url_for('static', filename='2.png') }}"
           alt="Section 2 Image"
         />
-        <h2>Prabowo - Gibran<h2>
+        <!-- <h2>Prabowo - Gibran<h2> -->
         <h1 id="count2">{{ c2 }}%</h1>
+        <div class="progress-bar">
+          <div style="width: {{ c2 }}%; background-color: #4CAF50;"></div>
+        </div>
       </div>
 
       <!-- Div 3 -->
       <div class="section" id="section3">
-        <h2>3</h2>
+        <!-- <h1>3</h1> -->
         <img
-          src="{{ url_for('static', filename='MetroDF_Linea_3.jpg') }}"
+          src="{{ url_for('static', filename='3.png') }}"
           alt="Section 3 Image"
         />
-        <h2>Ganjar - Mahfud<h2>
+        <!-- <h2>Ganjar - Mahfud<h2> -->
         <h1 id="count3">{{ c3 }}%</h1>
+        <div class="progress-bar">
+          <div style="width: {{ c3 }}%; background-color: #4CAF50;"></div>
+        </div>
       </div>
     </div>
-
+    <div class="progress">
+      <div class="bar" id="bar1">
+        <h1 id="count1">{{ c1 }}%</h1>
+        <div class="progress-bar">
+          <div style="width: {{ c1 }}%; background-color: #4CAF50;"></div>
+        </div>
+      </div>
+      <div class="bar" id="bar2">
+        <h1 id="count1">{{ c2 }}%</h1>
+        <div class="progress-bar">
+          <div style="width: {{ c2 }}%; background-color: #4CAF50;"></div>
+        </div>
+      </div>
+      <div class="bar" id="bar3">
+        <h1 id="count1">{{ c3 }}%</h1>
+        <div class="progress-bar">
+          <div style="width: {{ c3 }}%; background-color: #4CAF50;"></div>
+        </div>
+      </div>
+    </div>
     <!-- Skrip Socket.IO -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
     <script>
@@ -74,11 +142,22 @@
         "http://" + document.domain + ":" + location.port + "/survey"
       );
 
-      // Menerima pembaruan nilai dari server dan memperbarui halaman
       socket.on("update", function (data) {
         document.getElementById("count1").innerText = data.c1 + "%";
         document.getElementById("count2").innerText = data.c2 + "%";
         document.getElementById("count3").innerText = data.c3 + "%";
+        document.querySelector("#section1 .progress-bar div").style.width =
+          data.c1 + "%";
+        document.querySelector("#section2 .progress-bar div").style.width =
+          data.c2 + "%";
+        document.querySelector("#section3 .progress-bar div").style.width =
+          data.c3 + "%";
+        document.querySelector("#bar1 .progress-bar div").style.width =
+          data.c1 + "%";
+        document.querySelector("#bar2 .progress-bar div").style.width =
+          data.c2 + "%";
+        document.querySelector("#bar3 .progress-bar div").style.width =
+          data.c3 + "%";
       });
     </script>
   </body>
