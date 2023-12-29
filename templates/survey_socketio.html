@@ -28,7 +28,7 @@
       .bar {
         flex: 1;
         margin: 10px;
-        padding: 0px;
+        padding: 15px;
         text-align: center; /* Agar gambar berada di tengah */
       }
       .section img {
@@ -81,10 +81,6 @@
           alt="Section 1 Image"
         />
         <!-- <h2>Anis - Muhaimin</h2> -->
-        <h1 id="count1">{{ c1 }}%</h1>
-        <div class="progress-bar">
-          <div style="width: {{ c1 }}%; background-color: #4CAF50;"></div>
-        </div>
       </div>
 
       <!-- Div 2 -->
@@ -95,10 +91,6 @@
           alt="Section 2 Image"
         />
         <!-- <h2>Prabowo - Gibran<h2> -->
-        <h1 id="count2">{{ c2 }}%</h1>
-        <div class="progress-bar">
-          <div style="width: {{ c2 }}%; background-color: #4CAF50;"></div>
-        </div>
       </div>
 
       <!-- Div 3 -->
@@ -109,27 +101,23 @@
           alt="Section 3 Image"
         />
         <!-- <h2>Ganjar - Mahfud<h2> -->
-        <h1 id="count3">{{ c3 }}%</h1>
-        <div class="progress-bar">
-          <div style="width: {{ c3 }}%; background-color: #4CAF50;"></div>
-        </div>
       </div>
     </div>
     <div class="progress">
       <div class="bar" id="bar1">
-        <h1 id="count1">{{ c1 }}%</h1>
+        <!-- <h1 id="count1">{{ c1 }}%</h1> -->
         <div class="progress-bar">
           <div style="width: {{ c1 }}%; background-color: #4CAF50;"></div>
         </div>
       </div>
       <div class="bar" id="bar2">
-        <h1 id="count1">{{ c2 }}%</h1>
+        <!-- <h1 id="count2">{{ c2 }}%</h1> -->
         <div class="progress-bar">
           <div style="width: {{ c2 }}%; background-color: #4CAF50;"></div>
         </div>
       </div>
       <div class="bar" id="bar3">
-        <h1 id="count1">{{ c3 }}%</h1>
+        <!-- <h1 id="count3">{{ c3 }}%</h1> -->
         <div class="progress-bar">
           <div style="width: {{ c3 }}%; background-color: #4CAF50;"></div>
         </div>
@@ -143,15 +131,9 @@
       );
 
       socket.on("update", function (data) {
-        document.getElementById("count1").innerText = data.c1 + "%";
-        document.getElementById("count2").innerText = data.c2 + "%";
-        document.getElementById("count3").innerText = data.c3 + "%";
-        document.querySelector("#section1 .progress-bar div").style.width =
-          data.c1 + "%";
-        document.querySelector("#section2 .progress-bar div").style.width =
-          data.c2 + "%";
-        document.querySelector("#section3 .progress-bar div").style.width =
-          data.c3 + "%";
+        //document.getElementById("count1").innerText = data.c1 + "%";
+        //document.getElementById("count2").innerText = data.c2 + "%";
+        //document.getElementById("count3").innerText = data.c3 + "%";
         document.querySelector("#bar1 .progress-bar div").style.width =
           data.c1 + "%";
         document.querySelector("#bar2 .progress-bar div").style.width =
