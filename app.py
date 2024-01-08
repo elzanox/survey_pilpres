@@ -53,12 +53,12 @@ mqtt_client.enable_logger()
 # Membuat route untuk halaman utama
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('survey_socketio.html', c1=count_1, c2=count_2, c3=count_3)
 
 # Membuat route untuk halaman survey
-@app.route('/survey')
-def survey():
-    return render_template('survey_socketio.html', c1=count_1, c2=count_2, c3=count_3)
+@app.route('/index')
+def index():
+    return render_template('index.html')
 
 # Membuat event handler untuk koneksi WebSocket
 @socketio.on('connect', namespace='/survey')
