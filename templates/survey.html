@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Page</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style_survey.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Container untuk elemen horizontal -->
+    <div class="container">
+      <!-- Div 1 -->
+      <div class="section" id="section1">
+        <!-- <h1>1</h1> -->
+        <img
+          src="{{ url_for('static', filename='1.png') }}"
+          alt="Section 1 Image"
+        />
+        <!-- <h2>Anis - Muhaimin</h2> -->
+      </div>
+
+      <!-- Div 2 -->
+      <div class="section" id="section2">
+        <!-- <h1>2</h1> -->
+        <img
+          src="{{ url_for('static', filename='2.png') }}"
+          alt="Section 2 Image"
+        />
+        <!-- <h2>Prabowo - Gibran<h2> -->
+      </div>
+
+      <!-- Div 3 -->
+      <div class="section" id="section3">
+        <!-- <h1>3</h1> -->
+        <img
+          src="{{ url_for('static', filename='3.png') }}"
+          alt="Section 3 Image"
+        />
+        <!-- <h2>Ganjar - Mahfud<h2> -->
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+    <script>
+      var socket = io.connect(
+        "http://" + document.domain + ":" + location.port + "/survey"
+      );
+      socket.on("update", function (data) {
+        console.log("Received update:", data);
+        // Perbarui nilai overlay pada setiap section
+        const overlayTextSection1 = document
+          .getElementById("section1")
+          .querySelector(".overlay-text");
+        const overlayTextSection2 = document
+          .getElementById("section2")
+          .querySelector(".overlay-text");
+        const overlayTextSection3 = document
+          .getElementById("section3")
+          .querySelector(".overlay-text");
+
+        if (overlayTextSection1) {
+          overlayTextSection1.textContent = data.c1 + "%";
+        }
+
+        if (overlayTextSection2) {
+          overlayTextSection2.textContent = data.c2 + "%";
+        }
+
+        if (overlayTextSection3) {
+          overlayTextSection3.textContent = data.c3 + "%";
+        }
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        // Daftar gambar hover untuk setiap section
+        const hoverImagesSection1 = [
+          "{{ url_for('static', filename='1.png') }}",
+          "{{ url_for('static', filename='hover.png') }}",
+          // Tambahkan gambar hover lainnya jika diperlukan
+        ];
+
+        const hoverImagesSection2 = [
+          "{{ url_for('static', filename='2.png') }}",
+          "{{ url_for('static', filename='hover.png') }}",
+          // Tambahkan gambar hover lainnya jika diperlukan
+        ];
+
+        const hoverImagesSection3 = [
+          "{{ url_for('static', filename='3.png') }}",
+          "{{ url_for('static', filename='hover.png') }}",
+          // Tambahkan gambar hover lainnya jika diperlukan
+        ];
+
+        const section1Image = document
+          .getElementById("section1")
+          .querySelector("img");
+        const section2Image = document
+          .getElementById("section2")
+          .querySelector("img");
+        const section3Image = document
+          .getElementById("section3")
+          .querySelector("img");
+
+        let currentHoverIndexSection1 = 0;
+        let currentHoverIndexSection2 = 0;
+        let currentHoverIndexSection3 = 0;
+
+        function changeImageSection1() {
+          section1Image.style.transform = "scale(0)"; // Efek slide out
+          setTimeout(() => {
+            section1Image.src = hoverImagesSection1[currentHoverIndexSection1];
+            section1Image.alt = "Hovered Image"; // Ganti teks alternatif sesuai kebutuhan
+            section1Image.style.transform = "scale(1)"; // Efek slide in
+
+            // Hapus teks overlay jika ada
+            const existingOverlayText = document.querySelector(".overlay-text");
+            if (existingOverlayText) {
+              existingOverlayText.classList.remove("show"); // Hapus kelas "show" untuk memulai transisi keluar
+              setTimeout(() => {
+                existingOverlayText.parentNode.removeChild(existingOverlayText);
+              }, 300); // Sesuaikan dengan durasi transisi CSS untuk opacity
+            }
+
+            // Increment index hanya jika bukan gambar pertama
+            if (currentHoverIndexSection1 > 0) {
+              // Tambahkan teks overlay di sini
+              const overlayText = document.createElement("div");
+              overlayText.className = "overlay-text";
+              overlayText.textContent = "";
+              section1Image.parentNode.appendChild(overlayText);
+
+              // Trigger reflow untuk memulai transisi masuk
+              overlayText.offsetWidth;
+              overlayText.classList.add("show");
+            }
+
+            currentHoverIndexSection1 =
+              (currentHoverIndexSection1 + 1) % hoverImagesSection1.length;
+          }, 500); // Sesuaikan dengan durasi transisi CSS
+        }
+
+        function changeImageSection2() {
+          section2Image.style.transform = "scale(0)"; // Efek slide out
+          setTimeout(() => {
+            // Hapus teks overlay jika ada
+            const existingOverlayText =
+              section2Image.parentNode.querySelector(".overlay-text");
+            if (existingOverlayText) {
+              existingOverlayText.classList.remove("show"); // Hapus kelas "show" untuk memulai transisi keluar
+              setTimeout(() => {
+                existingOverlayText.parentNode.removeChild(existingOverlayText);
+              }, 300); // Sesuaikan dengan durasi transisi CSS untuk opacity
+            }
+
+            section2Image.src = hoverImagesSection2[currentHoverIndexSection2];
+            section2Image.style.transform = "scale(1)"; // Efek slide in
+
+            // Increment index hanya jika bukan gambar pertama
+            if (currentHoverIndexSection2 > 0) {
+              // Tambahkan teks overlay di sini
+              const overlayText = document.createElement("div");
+              overlayText.className = "overlay-text";
+              overlayText.textContent = "";
+              section2Image.parentNode.appendChild(overlayText);
+
+              // Trigger reflow untuk memulai transisi masuk
+              overlayText.offsetWidth;
+              overlayText.classList.add("show");
+            }
+
+            currentHoverIndexSection2 =
+              (currentHoverIndexSection2 + 1) % hoverImagesSection2.length;
+          }, 500); // Sesuaikan dengan durasi transisi CSS
+        }
+
+        function changeImageSection3() {
+          section3Image.style.transform = "scale(0)"; // Efek slide out
+          setTimeout(() => {
+            // Hapus teks overlay jika ada
+            const existingOverlayText =
+              section3Image.parentNode.querySelector(".overlay-text");
+            if (existingOverlayText) {
+              existingOverlayText.classList.remove("show"); // Hapus kelas "show" untuk memulai transisi keluar
+              setTimeout(() => {
+                existingOverlayText.parentNode.removeChild(existingOverlayText);
+              }, 300); // Sesuaikan dengan durasi transisi CSS untuk opacity
+            }
+
+            section3Image.src = hoverImagesSection3[currentHoverIndexSection3];
+            section3Image.style.transform = "scale(1)"; // Efek slide in
+
+            // Increment index hanya jika bukan gambar pertama
+            if (currentHoverIndexSection3 > 0) {
+              // Tambahkan teks overlay di sini
+              const overlayText = document.createElement("div");
+              overlayText.className = "overlay-text";
+              overlayText.textContent = "";
+              section3Image.parentNode.appendChild(overlayText);
+
+              // Trigger reflow untuk memulai transisi masuk
+              overlayText.offsetWidth;
+              overlayText.classList.add("show");
+            }
+
+            currentHoverIndexSection3 =
+              (currentHoverIndexSection3 + 1) % hoverImagesSection3.length;
+          }, 500); // Sesuaikan dengan durasi transisi CSS
+        }
+
+        // Ganti gambar setiap 2 detik untuk setiap section
+        setInterval(changeImageSection1, 5000);
+        setInterval(changeImageSection2, 5000);
+        setInterval(changeImageSection3, 5000);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+/* Gaya CSS Anda */
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+.section img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* Tambahkan efek transisi untuk perpindahan gambar */
+}
+
+.section {
+  flex: 1;
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  position: relative; /* Tambahkan posisi relatif untuk membuat ruang bagi elemen anak */
+  overflow: hidden; /* Sembunyikan overflow agar animasi slide terlihat */
+}
+
+.progress {
+  display: 1;
+}
+
+.section img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: transform 0.3s ease-in-out; /* Animasi transform untuk efek slide */
+  border-radius: 30px;
+}
+
+.section:hover img {
+  transform: translateY(-10px); /* Ubah nilai sesuai dengan kebutuhan Anda */
+}
+
+.section h2,
+.section h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 100px;
+  margin: 0;
+  padding: 0px;
+  color: #db1a21;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Tambahkan gaya tambahan untuk memastikan transisi animasi bekerja dengan baik */
+.section:hover {
+  z-index: 1;
+}
+
+.section:hover h2,
+.section:hover h1 {
+  transform: translateY(-10px); /* Ubah nilai sesuai dengan kebutuhan Anda */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #db1a21;
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  opacity: 0; /* Setel opacity awal menjadi 0 */
+  transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out; /* Tambahkan transisi untuk transform dan opacity */
+}
+
+.overlay-text.show {
+  opacity: 1; /* Setel opacity menjadi 1 ketika kelas show ditambahkan */
+  transform: translate(-50%, -50%) translateY(-10px); /* Tambahkan transformasi ke atas saat teks muncul */
+}

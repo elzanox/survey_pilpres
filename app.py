@@ -10,7 +10,7 @@ app = Flask(__name__)
 socketio = SocketIO(app)
 
 # Inisialisasi koneksi MQTT
-mqtt_broker = "218.234.97.77"
+mqtt_broker = "218.234.49.151"
 mqtt_port = 1883
 mqtt_topic = "survey"
 
@@ -36,6 +36,8 @@ def on_message(client, userdata, message):
         print(f"Received JSON payload: {payload_json}")
 
         # Mengirim pembaruan nilai ke semua klien WebSocket
+        socketio.emit('update', {'c1': count_1, 'c2': count_2, 'c3': count_3}, namespace='/mini_games')
+        # Mengirim pembaruan nilai ke semua klien WebSocket
         socketio.emit('update', {'c1': count_1, 'c2': count_2, 'c3': count_3}, namespace='/survey')
     except json.JSONDecodeError as e:
         print(f"Error decoding JSON: {e}")
@@ -51,15 +53,33 @@ mqtt_client.enable_logger()
 
 
 # Membuat route untuk halaman utama
+
 @app.route('/')
 def home():
-    return render_template('survey_socketio.html', c1=count_1, c2=count_2, c3=count_3)
-
-# Membuat route untuk halaman survey
-@app.route('/index')
-def index():
     return render_template('index.html')
 
+@app.route('/comment')
+def comment():
+    return render_template('comment.html')
+
+@app.route('/survey')
+def survey():
+    return render_template('survey.html', c1=count_1, c2=count_2, c3=count_3)
+
+@app.route('/mini_games')
+def mini_games():
+    return render_template('mini_games.html', c1=count_1, c2=count_2, c3=count_3)
+
+
+
+# Membuat event handler untuk koneksi WebSocket
+@socketio.on('connect', namespace='/mini_games')
+def handle_connect():
+    client_ip = request.remote_addr
+    print(f'Client connected from IP: {client_ip}')
+    # Mengirim nilai awal ke klien WebSocket saat terhubung
+    socketio.emit('update', {'c1': count_1, 'c2': count_2, 'c3': count_3}, namespace='/mini_games')
+    
 # Membuat event handler untuk koneksi WebSocket
 @socketio.on('connect', namespace='/survey')
 def handle_connect():
@@ -67,7 +87,7 @@ def handle_connect():
     print(f'Client connected from IP: {client_ip}')
     # Mengirim nilai awal ke klien WebSocket saat terhubung
     socketio.emit('update', {'c1': count_1, 'c2': count_2, 'c3': count_3}, namespace='/survey')
-
+  
 if __name__ == '__main__':
     # Menjalankan aplikasi dengan SocketIO menggunakan gevent-websocket handler
     # socketio.run(app, host='0.0.0.0', port=2024, debug=True, allow_unsafe_werkzeug=True, handler_class=WebSocketHandler)

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Games Page</title>
+    <!----======== CSS ======== -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style_mini_games.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mini Games</h1>
+      <div class="skill-box">
+        <span class="title" id="count1"> </span>
+        <div class="skill-bar" id="bar4">
+          <span class="skill-per anis">
+            <span class="tooltip image-anis"> </span>
+            <span class="tooltip image-coffee"> </span>
+          </span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <span class="title" id="count2"> </span>
+        <div class="skill-bar" id="bar5">
+          <span class="skill-per prabowo">
+            <span class="tooltip image-prabowo"></span>
+            <span class="tooltip image-rose"> </span>
+          </span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <span class="title" id="count3"> </span>
+        <div class="skill-bar" id="bar6">
+          <span class="skill-per ganjar">
+            <span class="tooltip image-ganjar"></span>
+            <span class="tooltip image-orange"> </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Skrip Socket.IO -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+    <script>
+      var socket = io.connect(
+        "http://" + document.domain + ":" + location.port + "/mini_games"
+      );
+
+      socket.on("update", function (data) {
+        console.log("Received update:", data);
+        document.querySelector("#count1").textContent =
+          "Anis (" + data.c1 + "%)";
+        document.querySelector("#count2").textContent =
+          "Prabowo (" + data.c1 + "%)";
+        document.querySelector("#count3").textContent =
+          "Ganjar (" + data.c1 + "%)";
+
+        // Update Mini Games progress bars
+        document.querySelector("#bar4 .skill-per.anis").style.width =
+          data.c1 + "%";
+        document.querySelector("#bar5 .skill-per.prabowo").style.width =
+          data.c2 + "%";
+        document.querySelector("#bar6 .skill-per.ganjar").style.width =
+          data.c3 + "%";
+      });
+    </script>
+  </body>
+</html>
