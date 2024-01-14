@@ -1,9 +1,23 @@
 .container {
+  display: flex;
+}
+.section1 {
   position: relative;
-  width: 800px;
-  height: 600px;
+  width: 780px;
+  height: 480px;
   background: #db1a21;
   padding: 0;
   border-radius: 30px;
+  margin-right: 10px;
+  opacity: 0.7; /* Nilai opacity, misalnya 0.7 membuat elemen 70% terlihat */
+}
+.section2 {
+  position: relative;
+  width: 780px;
+  height: 480px;
+  background: #db1a21;
+  padding: 0;
+  border-radius: 30px;
+  margin-left: 10px;
   opacity: 0.7; /* Nilai opacity, misalnya 0.7 membuat elemen 70% terlihat */
 }

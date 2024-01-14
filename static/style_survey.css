@@ -65,7 +65,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #db1a21;
-  font-size: 90px;
+  font-size: 50px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   opacity: 0; /* Setel opacity awal menjadi 0 */

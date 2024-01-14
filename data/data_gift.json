@@ -1,0 +1,1332 @@
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=ijBRos3fPyuGIg5rPIzn6EScm4g%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=XlPgi6TLPEeNyG8yOIUOrYoQ0o4%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=a5UdLuQnv0G5LaiiacCWOILXN5E%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705231182955,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 7145780379856684037,
+    "nickname": "renaldy",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/85c604ba9f006193a6abc4eb1bed7c15~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=hVOdWqXYqXQX71SnTtCZeVgDkh8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/85c604ba9f006193a6abc4eb1bed7c15.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=Se8YL7NGwTGCHm2jP%2F8RuEkEgUw%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/85c604ba9f006193a6abc4eb1bed7c15.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=lZRau5Ni1rOlPzJI1J2mdKPunC8%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/85c604ba9f006193a6abc4eb1bed7c15"
+    },
+    "unique_id": "reenaldys",
+    "sec_uid": "MS4wLjABAAAAd3cZ_zbxRvTAyyNIVXZ_VlkGLgJjxMTulRtAHmbLaxJjWImbz3ZMDDn-AF8UINyy",
+    "info": {
+      "following": 58,
+      "followers": 9,
+      "follow_role": 2
+    }
+  },
+  "gift": {
+    "gift_id": 7934,
+    "count": 1,
+    "repeat_end": null,
+    "info": {
+      "name": "Heart Me",
+      "diamond_count,": 1,
+      "type,": 4,
+      "description,": "Sent Heart Me"
+    },
+    "recipient": {
+      "timestamp": 1705231502265,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6564538130395873282,
+    "nickname": "Sam?",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bd0c08cc36a711dead53f935aa36b0c~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=KUtVnv%2BasmvShloo4GdFpfBjdIM%3D",
+        "https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bd0c08cc36a711dead53f935aa36b0c~c5_100x100.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=qyknt0fa66UDXk8vOyiSRaBYQWs%3D",
+        "https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bd0c08cc36a711dead53f935aa36b0c~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=L4tO%2F%2Fgd3Woc6wHLufZboBJhZIA%3D"
+      ],
+      "uri": "100x100/tos-useast2a-avt-0068-giso/6bd0c08cc36a711dead53f935aa36b0c"
+    },
+    "unique_id": "ithnkurhome",
+    "sec_uid": "MS4wLjABAAAAMwP1cH4msusJnBnkOp0jgPX-Jm6cuAxV-Yo4b3_RvywgisAd3KKZHAy3v7FQCyu6",
+    "info": {
+      "following": 1136,
+      "followers": 80,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 9334,
+    "count": 2,
+    "repeat_end": 1,
+    "info": {
+      "name": "LIVE Fest",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent LIVE Fest"
+    },
+    "recipient": {
+      "timestamp": 1705231574331,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6956919492653106177,
+    "nickname": "Piderman",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=Xb4XZri%2BgpbsscT9YOBmGNkmPag%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~c5_100x100.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=6fxmNz5BqO%2BDXgHTwk9IcgS1fP8%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=mxSQ2p5ophSNO0dmmpXbW5iRJcA%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68"
+    },
+    "unique_id": "dasbastrd0",
+    "sec_uid": "MS4wLjABAAAAkRP9EtePyXVrbJ--uovSXQmC7-jZg3f5sn8i8Q_Ptyt8SAD7GgkmE6QgOBUCnU58",
+    "info": {
+      "following": 185,
+      "followers": 13,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5464,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Ice Tea",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Ice Tea"
+    },
+    "recipient": {
+      "timestamp": 1705231784531,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6956919492653106177,
+    "nickname": "Piderman",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=Xb4XZri%2BgpbsscT9YOBmGNkmPag%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~c5_100x100.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=6fxmNz5BqO%2BDXgHTwk9IcgS1fP8%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=mxSQ2p5ophSNO0dmmpXbW5iRJcA%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68"
+    },
+    "unique_id": "dasbastrd0",
+    "sec_uid": "MS4wLjABAAAAkRP9EtePyXVrbJ--uovSXQmC7-jZg3f5sn8i8Q_Ptyt8SAD7GgkmE6QgOBUCnU58",
+    "info": {
+      "following": 185,
+      "followers": 13,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5464,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Ice Tea",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Ice Tea"
+    },
+    "recipient": {
+      "timestamp": 1705231794122,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6956919492653106177,
+    "nickname": "Piderman",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=Xb4XZri%2BgpbsscT9YOBmGNkmPag%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~c5_100x100.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=6fxmNz5BqO%2BDXgHTwk9IcgS1fP8%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=mxSQ2p5ophSNO0dmmpXbW5iRJcA%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/298bcd15d4df24494695d3ce3774dc68"
+    },
+    "unique_id": "dasbastrd0",
+    "sec_uid": "MS4wLjABAAAAkRP9EtePyXVrbJ--uovSXQmC7-jZg3f5sn8i8Q_Ptyt8SAD7GgkmE6QgOBUCnU58",
+    "info": {
+      "following": 185,
+      "followers": 13,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5464,
+    "count": 2,
+    "repeat_end": 1,
+    "info": {
+      "name": "Ice Tea",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Ice Tea"
+    },
+    "recipient": {
+      "timestamp": 1705231800384,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6759551156446282754,
+    "nickname": "mish mish",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/b226472934e3c2d3c6cbb37c4bd8f111~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=pL%2FuYaRg09Fkorz6Xj8ZolwQ8IQ%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/b226472934e3c2d3c6cbb37c4bd8f111.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=quINXz8BZMg%2B62hDOA%2BunS2sxGo%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/b226472934e3c2d3c6cbb37c4bd8f111.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=v95yM8Cz946KT5qk8vNghr%2FqAP4%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/b226472934e3c2d3c6cbb37c4bd8f111"
+    },
+    "unique_id": "nonamekidddd",
+    "sec_uid": "MS4wLjABAAAAr4WN11gIV1-LdtnwyYnWLvVQic9CABPiSF2AcsYZir0-1aYTXHrfqE9wBianvGjA",
+    "info": {
+      "following": 58,
+      "followers": 2943,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705233058261,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6789197702514541570,
+    "nickname": "Arron Marvel Gani",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=n7%2FLPjHfCZZYOXT7Q7Sxp4j8h2Q%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~c5_100x100.webp?lk3s=a5d48078&x-expires=1705402800&x-signature=Jq1yXZwRam5naOw6T9J8TCegx74%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705402800&x-signature=FX8qSHDB0vczMQoa%2BfnEb6fTrV4%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e"
+    },
+    "unique_id": "arronmarvelgani",
+    "sec_uid": "MS4wLjABAAAAA6xrWzYSaW6b_ADKrD263zN30GHEiIG4-60c9PHHwPbKXVNLS38xnZto2lo4VL7w",
+    "info": {
+      "following": 2937,
+      "followers": 1236,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 7934,
+    "count": 1,
+    "repeat_end": null,
+    "info": {
+      "name": "Heart Me",
+      "diamond_count,": 1,
+      "type,": 4,
+      "description,": "Sent Heart Me"
+    },
+    "recipient": {
+      "timestamp": 1705233243903,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705233642377,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 2,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705233658396,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6789197702514541570,
+    "nickname": "Arron Marvel Gani",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=N6nBjFyrDoOo7AYchG84rqfdack%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~c5_100x100.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=45kHJ%2BVmdsEf6OOoQLcCimL0sm8%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=r2QvQbRSroRkuZvlpl5GmyAOtkw%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e"
+    },
+    "unique_id": "arronmarvelgani",
+    "sec_uid": "MS4wLjABAAAAA6xrWzYSaW6b_ADKrD263zN30GHEiIG4-60c9PHHwPbKXVNLS38xnZto2lo4VL7w",
+    "info": {
+      "following": 2937,
+      "followers": 1237,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 9463,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Fairy Wings",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Fairy Wings"
+    },
+    "recipient": {
+      "timestamp": 1705233714619,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6789197702514541570,
+    "nickname": "Arron Marvel Gani",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=N6nBjFyrDoOo7AYchG84rqfdack%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~c5_100x100.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=45kHJ%2BVmdsEf6OOoQLcCimL0sm8%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=r2QvQbRSroRkuZvlpl5GmyAOtkw%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/87e73620f917f40e01c7d113b686844e"
+    },
+    "unique_id": "arronmarvelgani",
+    "sec_uid": "MS4wLjABAAAAA6xrWzYSaW6b_ADKrD263zN30GHEiIG4-60c9PHHwPbKXVNLS38xnZto2lo4VL7w",
+    "info": {
+      "following": 2937,
+      "followers": 1237,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 9463,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Fairy Wings",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Fairy Wings"
+    },
+    "recipient": {
+      "timestamp": 1705233878648,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 2,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705234082788,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5333,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Coffee",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Coffee"
+    },
+    "recipient": {
+      "timestamp": 1705234471021,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5778,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Orange Juice",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Orange Juice"
+    },
+    "recipient": {
+      "timestamp": 1705234507491,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705235024832,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705235418938,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705235589435,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5333,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Coffee",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Coffee"
+    },
+    "recipient": {
+      "timestamp": 1705236231180,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 9639,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "2024",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent 2024"
+    },
+    "recipient": {
+      "timestamp": 1705236240551,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 2,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705236251857,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=pGXk5FJuGQRz%2FDKnx6ktketclE8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=l0ck7UnzhF4ecxmt7HI%2BM%2BfLMBM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=22yiV9YHIkbv0u9DlfpatSsqQcY%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5333,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Coffee",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Coffee"
+    },
+    "recipient": {
+      "timestamp": 1705236272858,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 7239721336960173074,
+    "nickname": "nobody",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/dc6d60e5c78a67b41ad856c24870dc78~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=py5KzWYkNa3hu%2F5fAxZjy1Y5tdE%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/dc6d60e5c78a67b41ad856c24870dc78.webp?lk3s=a5d48078&x-expires=1705406400&x-signature=KqcGoGD2SKK22laNKL91vr6UOuM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/dc6d60e5c78a67b41ad856c24870dc78.jpeg?lk3s=a5d48078&x-expires=1705406400&x-signature=3qBlGi4nry5rhi4XAk%2Bxtvd%2FS4k%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/dc6d60e5c78a67b41ad856c24870dc78"
+    },
+    "unique_id": "nobodywantsyou_0",
+    "sec_uid": "MS4wLjABAAAAt3fJBZWmJiXoGH1f_MVL9aOZJA9iPWdq0wevqDrnu6SBjdSDLGL8ou68qaBdxaMh",
+    "info": {
+      "following": 179,
+      "followers": 22,
+      "follow_role": 3
+    }
+  },
+  "gift": {
+    "gift_id": 7934,
+    "count": 1,
+    "repeat_end": null,
+    "info": {
+      "name": "Heart Me",
+      "diamond_count,": 1,
+      "type,": 4,
+      "description,": "Sent Heart Me"
+    },
+    "recipient": {
+      "timestamp": 1705236848465,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6756937881828590593,
+    "nickname": "Arief",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=n4rxu5ESA9AxEH2zQGmTFofYFug%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e~c5_100x100.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=%2FG59xcGhqLTh9GfRz8B05CXSH3M%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705410000&x-signature=X3Y1wbKt7cU%2FnkN6CnjQN7qLOQ8%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e"
+    },
+    "unique_id": "arief.ini",
+    "sec_uid": "MS4wLjABAAAAdCJJDAVqdMEJop_69aitH7Q1PnGPxd_u1cqXoTGnKqhtoW4KV5pU7pYHrfvlo-53",
+    "info": {
+      "following": 407,
+      "followers": 109,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 6064,
+    "count": 6,
+    "repeat_end": 1,
+    "info": {
+      "name": "GG",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent GG"
+    },
+    "recipient": {
+      "timestamp": 1705237376717,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6756937881828590593,
+    "nickname": "Arief",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=n4rxu5ESA9AxEH2zQGmTFofYFug%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e~c5_100x100.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=%2FG59xcGhqLTh9GfRz8B05CXSH3M%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705410000&x-signature=X3Y1wbKt7cU%2FnkN6CnjQN7qLOQ8%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/ed337e9c606566ddd20ffc1dadf6f74e"
+    },
+    "unique_id": "arief.ini",
+    "sec_uid": "MS4wLjABAAAAdCJJDAVqdMEJop_69aitH7Q1PnGPxd_u1cqXoTGnKqhtoW4KV5pU7pYHrfvlo-53",
+    "info": {
+      "following": 407,
+      "followers": 109,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 7070,
+    "count": 5,
+    "repeat_end": 1,
+    "info": {
+      "name": "Match Star",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Match Star"
+    },
+    "recipient": {
+      "timestamp": 1705237473276,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=EdUVONPHe2Px0r608qf%2FtMCIYhU%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=sBehzEOz1KIppL61QPGa4ZCSYDA%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705410000&x-signature=oqOXcY5jnngy8aOT1toJkdEj0r8%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705239034710,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 7095367583986271258,
+    "nickname": "fat no scare\u26a1",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0f249742e07c50f3cbfa4ae2d5819672~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=6050KO%2FqP1MTSgwwewOke0keCj4%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0f249742e07c50f3cbfa4ae2d5819672~c5_100x100.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=s6OsFMX%2FDY7kZoxw%2FHWGv7S82ug%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0f249742e07c50f3cbfa4ae2d5819672~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705410000&x-signature=6BTJaXUaAf5a5TbYf%2Bn7sNEG6Ig%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/0f249742e07c50f3cbfa4ae2d5819672"
+    },
+    "unique_id": "fat_but_slim",
+    "sec_uid": "MS4wLjABAAAAVa_i_zKxOGGOhmhYkFeOY6GuOJxqMBhEPU9XkRK2TyjQBboseo-CpUIYCgQnbgpY",
+    "info": {
+      "following": 19,
+      "followers": 7,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 9139,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Team Bracelet",
+      "diamond_count,": 2,
+      "type,": 1,
+      "description,": "Sent Team Bracelet"
+    },
+    "recipient": {
+      "timestamp": 1705239558054,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6858435538618467329,
+    "nickname": "R",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=SAuIZlbJtq0axxP3ZXZo5phUu%2FE%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989~c5_100x100.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=1N5hE6QXanQ8BnHwfHlrM%2FReLD4%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705410000&x-signature=Ey8WRheitW5aPxdycJpD%2BvonNV4%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989"
+    },
+    "unique_id": "trashaccount490",
+    "sec_uid": "MS4wLjABAAAAqHwMZCcNSXqN9rfIj28q99uN_ARPFnhZdvxT97Rqpb6eAp_-aQWPROa8QjC_09fd",
+    "info": {
+      "following": 73,
+      "followers": 58,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5588,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Nasi Lemak",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Nasi Lemak"
+    },
+    "recipient": {
+      "timestamp": 1705240278703,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6858435538618467329,
+    "nickname": "R",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=SAuIZlbJtq0axxP3ZXZo5phUu%2FE%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989~c5_100x100.webp?lk3s=a5d48078&x-expires=1705410000&x-signature=1N5hE6QXanQ8BnHwfHlrM%2FReLD4%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705410000&x-signature=Ey8WRheitW5aPxdycJpD%2BvonNV4%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/7daee23f167ba0c5b6362e19bac71989"
+    },
+    "unique_id": "trashaccount490",
+    "sec_uid": "MS4wLjABAAAAqHwMZCcNSXqN9rfIj28q99uN_ARPFnhZdvxT97Rqpb6eAp_-aQWPROa8QjC_09fd",
+    "info": {
+      "following": 73,
+      "followers": 58,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 9463,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Fairy Wings",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Fairy Wings"
+    },
+    "recipient": {
+      "timestamp": 1705240300651,
+      "user_id": 6795367090704483330
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6791780103456048129,
+    "nickname": "De\u201duna",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=SH2b%2FDoCEOaunwN6QnnjdpYathw%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=yoLt0nAFjvNLRML8YguaclWVhLM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b.jpeg?lk3s=a5d48078&x-expires=1705413600&x-signature=AZS0PhxpOHozb0o3%2BgHD0OCuB%2Bs%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b"
+    },
+    "unique_id": "gede.juna1807",
+    "sec_uid": "MS4wLjABAAAAqrPTfX2Y7e34aw1SDuKyT1CBLzxJvBBhrrb9AqKLlmLaY31T8Gq67ahoiHSGjqhQ",
+    "info": {
+      "following": 891,
+      "followers": 305,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705242641556,
+      "user_id": 7040689470459020314
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6791780103456048129,
+    "nickname": "De\u201duna",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=SH2b%2FDoCEOaunwN6QnnjdpYathw%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=yoLt0nAFjvNLRML8YguaclWVhLM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b.jpeg?lk3s=a5d48078&x-expires=1705413600&x-signature=AZS0PhxpOHozb0o3%2BgHD0OCuB%2Bs%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b"
+    },
+    "unique_id": "gede.juna1807",
+    "sec_uid": "MS4wLjABAAAAqrPTfX2Y7e34aw1SDuKyT1CBLzxJvBBhrrb9AqKLlmLaY31T8Gq67ahoiHSGjqhQ",
+    "info": {
+      "following": 891,
+      "followers": 305,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705242653892,
+      "user_id": 7040689470459020314
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 7263506641227334662,
+    "nickname": "Markenyot",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6d2dddabb8d97bfc7e894d4119664a36~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=8m9WKKRzo8yVeyFIELfF58LxYuA%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6d2dddabb8d97bfc7e894d4119664a36~c5_100x100.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=imo%2B8pXDQPkxna%2FnYHrwpIN6uW4%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6d2dddabb8d97bfc7e894d4119664a36~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705413600&x-signature=0Ogvkbk3eU%2BPUNP6D1co%2FzKrQbM%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/6d2dddabb8d97bfc7e894d4119664a36"
+    },
+    "unique_id": "markenyot28",
+    "sec_uid": "MS4wLjABAAAAtBm-hWZe5I06f7-92Ftvp8mU5IM4le_OfzKNNvNFX8VhIpDjYq_s0pFMxsd4Zrvk",
+    "info": {
+      "following": 803,
+      "followers": 233,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705242670171,
+      "user_id": 7040689470459020314
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6791780103456048129,
+    "nickname": "De\u201duna",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=SH2b%2FDoCEOaunwN6QnnjdpYathw%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=yoLt0nAFjvNLRML8YguaclWVhLM%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b.jpeg?lk3s=a5d48078&x-expires=1705413600&x-signature=AZS0PhxpOHozb0o3%2BgHD0OCuB%2Bs%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/546ffd6afecdb07ce74cd20bd773283b"
+    },
+    "unique_id": "gede.juna1807",
+    "sec_uid": "MS4wLjABAAAAqrPTfX2Y7e34aw1SDuKyT1CBLzxJvBBhrrb9AqKLlmLaY31T8Gq67ahoiHSGjqhQ",
+    "info": {
+      "following": 891,
+      "followers": 305,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705242681494,
+      "user_id": 7040689470459020314
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 7122383292439479298,
+    "nickname": "susi",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d183f6332efcdb7a1cebbc96070f1b2e~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=KOSzsIcagRVM8mZVkQQkBAumPyE%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d183f6332efcdb7a1cebbc96070f1b2e~c5_100x100.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=y2ghhkLnL%2FGGyJfpx6CenfqzmMg%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d183f6332efcdb7a1cebbc96070f1b2e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705413600&x-signature=u6oMbUyqQGt9Omv3M937LGwwQsE%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/d183f6332efcdb7a1cebbc96070f1b2e"
+    },
+    "unique_id": "cusilawati8",
+    "sec_uid": "MS4wLjABAAAAM2iVIP5Cc3OksfTWJHSIxaLJ599dqocFhQTd1BoQsKPPWiS5lx8JlcXKyF9rLR-P",
+    "info": {
+      "following": 607,
+      "followers": 306,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705242865807,
+      "user_id": 7040689470459020314
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6683417321133343746,
+    "nickname": "bctod",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7cf61c6400175f5ab7fe2b3ca7c22fe3~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=ltFhnNZTh2MRrUtZIeEY0qDrCZ8%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7cf61c6400175f5ab7fe2b3ca7c22fe3~c5_100x100.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=JPtDBoAJPDRRH8GFUiwrUDkyUCU%3D",
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/7cf61c6400175f5ab7fe2b3ca7c22fe3~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705413600&x-signature=nZP2sN0UBBSFGbGo27QIOkuPT1s%3D"
+      ],
+      "uri": "100x100/tos-maliva-avt-0068/7cf61c6400175f5ab7fe2b3ca7c22fe3"
+    },
+    "unique_id": "fakyuasshole",
+    "sec_uid": "MS4wLjABAAAAbnQIRf_jJxUAiSMgBs0hfE8AvsxiNg-kwGMjOvcFzWpHMv71H8Ov0XmIoJOMepGF",
+    "info": {
+      "following": 262,
+      "followers": 44,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5655,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Rose",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Rose"
+    },
+    "recipient": {
+      "timestamp": 1705242998737,
+      "user_id": 7040689470459020314
+    }
+  }
+}
+,
+{
+  "user": {
+    "user_id": 6964493401480676353,
+    "nickname": "atfila.project",
+    "avatar": {
+      "urls": [
+        "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85~tplv-tiktok-shrink:72:72.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=2k1igwj7F5nnrnlv4RrM633UX4M%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.webp?lk3s=a5d48078&x-expires=1705413600&x-signature=9ToMDjHSpWOWNs3iliGdrcs1sj8%3D",
+        "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85.jpeg?lk3s=a5d48078&x-expires=1705413600&x-signature=QzcjPThCMO6dp0bIcf5g5LuANZM%3D"
+      ],
+      "uri": "100x100/tos-alisg-avt-0068/579b24f19510daf5c5dd80e46552fd85"
+    },
+    "unique_id": "majnunmlbb",
+    "sec_uid": "MS4wLjABAAAAQxbZEe-WySfzj_7oF6aKx3npyoiWvmKReLO0rU3L4ZUQ71fJcfaBywF8gd5FBsfs",
+    "info": {
+      "following": 171,
+      "followers": 1290,
+      "follow_role": null
+    }
+  },
+  "gift": {
+    "gift_id": 5778,
+    "count": 1,
+    "repeat_end": 1,
+    "info": {
+      "name": "Orange Juice",
+      "diamond_count,": 1,
+      "type,": 1,
+      "description,": "Sent Orange Juice"
+    },
+    "recipient": {
+      "timestamp": 1705243378944,
+      "user_id": 7040689470459020314
+    }
+  }
+}
+,
